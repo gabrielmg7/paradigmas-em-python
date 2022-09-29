@@ -4,6 +4,6 @@
 #### ALUNO: Gabriel Moura   
 ##### Lista de Atividades 1
 ---
-##### QUESTÃO 1
-###### 
+##### QUESTÃO 16
+###### Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 

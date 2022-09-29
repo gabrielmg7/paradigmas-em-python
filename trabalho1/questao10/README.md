@@ -4,6 +4,6 @@
 #### ALUNO: Gabriel Moura   
 ##### Lista de Atividades 1
 ---
-##### QUESTÃO 1
-###### 
+##### QUESTÃO 10
+###### Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 

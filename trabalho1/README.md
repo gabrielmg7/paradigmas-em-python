@@ -3,6 +3,7 @@
 #### ESTACIO FIC 2022.2 - PROFESSOR ESTEVÃO 
 #### ALUNO: Gabriel Moura   
 ##### Lista de Atividades 1
+
 ---
 ##### QUESTÕES
 1. Calcular a área e o perímetro de um retângulo.
@@ -14,7 +15,7 @@
 7. Faça um Programa que peça dois números e imprima a soma.
 8. Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 9. Faça um Programa que converta metros para centímetros. 
-10. 10.Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+10. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 11. Faça um Programa que peça dois números e imprima o maior deles.
 12. Faça um Programa que peça um valor e mostre n1a tela se o valor é positivoou negativo.
 13. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.

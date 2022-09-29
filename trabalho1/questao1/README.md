@@ -5,5 +5,5 @@
 ##### Lista de Atividades 1
 ---
 ##### QUESTÃO 1
-###### 
+###### Calcular a área e o perímetro de um retângulo.
 

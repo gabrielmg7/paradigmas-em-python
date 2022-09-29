@@ -4,6 +4,6 @@
 #### ALUNO: Gabriel Moura   
 ##### Lista de Atividades 1
 ---
-##### QUESTÃO 1
-###### 
+##### QUESTÃO 17
+###### Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
 

@@ -4,6 +4,5 @@
 #### ALUNO: Gabriel Moura   
 ##### Lista de Atividades 1
 ---
-##### QUESTÃO 1
-###### 
-
+##### QUESTÃO 7
+###### Faça um Programa que peça dois números e imprima a soma.
