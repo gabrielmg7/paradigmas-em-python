@@ -9,5 +9,6 @@
 ######Link do Projeto no [Notion](https://gabrielmdev.notion.site/Paradigmas-em-Python-Trabalho-AV1-d700c7ff1d814d4f9fda4e28b66f6c2a)
 ---
 ##### QUESTÃO 6
-###### Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+###### Faça um Programa que peça um número e então mostre a mensagem:
+###### "O número informado foi [número]."
 
