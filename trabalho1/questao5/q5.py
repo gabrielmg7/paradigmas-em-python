@@ -1,7 +1,9 @@
 num = float(input("Insira o valor a ser calculado: "))
+
 print("|----------------")
 print("| Resultado: ")
 print("|----------------")
+
 for i in range(1,11):
 
     r = i*num    

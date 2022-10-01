@@ -8,5 +8,8 @@ h1 = int(h)
 p = (2*b1) + (2*h1)
 a = b1*h1
 
-print("Área: ", a)
-print("Perímetro: ", p)
+if(a=="") or (b==""):
+    print("Você deve inserir um valor para A e B.")
+else:
+    print("Área:", a)
+    print("Perímetro:", p)
