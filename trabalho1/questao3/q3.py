@@ -10,3 +10,4 @@ for numero in range(0, 100, 1):
         res = soma + numero
         print("Soma: ", soma, " + ", numero, " = ", res, "\n-----------------------------")
         soma = res
+    
