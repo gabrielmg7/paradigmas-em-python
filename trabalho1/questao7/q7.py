@@ -5,4 +5,4 @@ y = float(input("| Insira o valor de Y: "))
 if (x == "") or (y ==""): 
     print("Insira um valor para X e Y.")
 else:
-    print("| Resultado:", x+y)
+    print("| Resultado:", "%.1f" % (x+y))

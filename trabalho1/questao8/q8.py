@@ -5,7 +5,7 @@ n4 = float(input("Insira a nota da AP4: "))
 
 def imprimir(n1, n2, n3, n4):
     media = (n1+n2+n3+n4)//4
-    print("Média de notas do Aluno: ", media)
+    print("Média de notas do Aluno: ", "%.2f" % media)
 
 if (n1 == "") or (n2 == "") or (n3 == "") or (n4 == ""):
     print("ERRO! Você deve inserir todas as notas para calcular a média anual.")
