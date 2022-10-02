@@ -1,3 +1,5 @@
+#coding: utf-8
+
 n1 = float(input("Insira a nota da AP1: "))
 n2 = float(input("Insira a nota da AP2: "))
 n3 = float(input("Insira a nota da AP3: "))

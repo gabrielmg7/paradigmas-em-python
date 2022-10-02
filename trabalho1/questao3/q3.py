@@ -1,5 +1,4 @@
-# Desenvolva um Programa em PYTHON usando o comando FOR, 
-# para imprimir os números pares de 0 a 100 e a soma destes números.
+#coding: utf-8
 
 numero = 0;
 soma = 0;

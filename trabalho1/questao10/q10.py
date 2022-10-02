@@ -1,3 +1,4 @@
+#coding: utf-8
 
 r = float(input("Insira o Raio (cm): "))
 

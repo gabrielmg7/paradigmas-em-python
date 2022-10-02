@@ -1,4 +1,4 @@
-# Faça um Programa que converta metros para centímetros. 
+#coding: utf-8
 
 m = float(input("Insira o valor em Metros: "))
 cm = m * 100

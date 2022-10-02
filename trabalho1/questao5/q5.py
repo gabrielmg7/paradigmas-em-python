@@ -1,3 +1,5 @@
+#coding: utf-8
+
 num = float(input("Insira o valor a ser calculado: "))
 
 print("|----------------")

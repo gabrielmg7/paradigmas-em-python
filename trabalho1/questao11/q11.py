@@ -1,3 +1,5 @@
+#coding: utf-8
+
 x = float(input("| Insira o valor de X: "))
 y = float(input("| Insira o valor de Y: "))
 if (x == "") or (y == ""): 

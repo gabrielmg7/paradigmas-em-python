@@ -1,5 +1,4 @@
-# Desenvolva um Programa em PYTHON usando o comando FOR, 
-# para calcular e imprimir o fatorial de N, informado pelo usuário.
+#coding: utf-8
 
 num = int(input("Insira o valor a ser calculado: "))
 

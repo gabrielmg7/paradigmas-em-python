@@ -1,4 +1,4 @@
-# converter dólares em reais, mas se o cliente desejar trocar mais de 100 dólares, dar 10% de desconto no valor do dólar.
+#coding: utf-8
 
 cot = float(input("Cotação atual do dólar: R$"))
 valor = float(input("Valor a ser convertido em Reais: US$"))

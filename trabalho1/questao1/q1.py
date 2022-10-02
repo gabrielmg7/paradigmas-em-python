@@ -1,4 +1,4 @@
-#calular a área  e o perímetro de um retângulo
+#coding: utf-8
 
 b = input("Digite a base do Retângulo: ")
 b1 = int(b)

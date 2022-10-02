@@ -1,3 +1,5 @@
+#coding: utf-8
+
 letra = str(input("Insira o sexo: "))
 
 if(letra == 'M'):

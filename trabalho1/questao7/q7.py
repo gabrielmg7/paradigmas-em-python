@@ -1,4 +1,4 @@
-# Faça um Programa que peça dois números e imprima a soma.
+#coding: utf-8
 
 x = float(input("| Insira o valor de X: "))
 y = float(input("| Insira o valor de Y: "))

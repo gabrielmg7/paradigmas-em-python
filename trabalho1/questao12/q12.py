@@ -1,3 +1,5 @@
+#coding: utf-8
+
 x = float(input("Insira um valor qualquer: "))
 
 if (x > 0):
