@@ -15,4 +15,3 @@
     c. Salário: maior que zero;
     d. Sexo: 'f' ou 'm';
     e. Estado Civil: 's', 'c', 'v', 'd';
-
