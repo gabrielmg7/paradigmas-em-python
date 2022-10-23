@@ -5,15 +5,13 @@ lista = 0
 
 def inserir(nome_out, idade_out, lista):
     while lista < 5:
-        nome_in = input("Insira o nome: ")
-        idade_in = input("Insira a idade: ")
-        nome_out.append(nome_in)
-        idade_out.append(idade_in)
+        nome_out.append(input("Insira o nome: "))
+        idade_out.append(input("Insira a idade: "))
+        lista = lista + 1
         print("--------------------------")
         print("Nomes: ", nome_out)
         print("Idades: ", idade_out)
         print("--------------------------")
-        lista = lista + 1
     menu(nome_out, idade_out, lista)
 
 
