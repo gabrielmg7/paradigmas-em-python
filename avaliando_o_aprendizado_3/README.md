@@ -51,9 +51,6 @@ A pilha foi concebida de modo que o seu topo é o primeiro elemento de uma lista
 
 ---
 
-Respondido em 02/11/2022 17:13:52
-
----
 
 ### 2ª Questão | BdQ Ref.: 201907642217
 
@@ -91,9 +88,6 @@ Qual(s) afirmativa(s) é (são) verdadeira(s)?
 
 ---
 
-Respondido em 02/11/2022 17:43:17
-
----
 
 ### 3ª Questão | BdQ Ref.: 201908829807 | (AOCP / MJSP, 2020)
 
@@ -141,9 +135,6 @@ func area_retangulo(comp, larg): return comp * larg; println(' A área é ' +
 
 ---
 
-Respondido em 02/11/2022 17:45:28
-
----
 
 ### 4ª Questão | Ref.: 201908830056
 
@@ -177,9 +168,6 @@ print(n1,'-',n2,'-',n2)
 
 ---
 
-Respondido em 02/11/2022 17:54:47
-
----
 
 ### 5ª Questão | Ref.: 201907579269
 

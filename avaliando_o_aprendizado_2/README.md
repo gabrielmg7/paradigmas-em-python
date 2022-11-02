@@ -33,10 +33,6 @@ Nesse contexto, sabemos que os cientistas de dados lidam com grande quantidade d
 
 ---
 
-Respondido em 21/09/2022 19:25:53
-
----
-
 ### 2ª Questão
 
 Considere o seguinte trecho de programa em Python
@@ -72,10 +68,6 @@ Em relação a linguagem Python, qual alternativa apresenta apenas dados do tipo
 
 ---
 
-Respondido em 21/09/2022 19:26:31
-
----
-
 ### 4ª Questão | QUADRIX / COBRA TECNOLOGIA, 2014 (Adaptada)
 
 Dado o programa em Python para troca de valores:
@@ -107,9 +99,6 @@ Está correto o que consta somente em:
 
 ---
 
-Respondido em 21/09/2022 19:28:17
-
----
 
 ### 5ª Questão
 
@@ -120,9 +109,5 @@ Um programador foi contratado para desenvolver um programa que utiliza um Algori
 - C
 - Java
 - COBOL
-
----
-
-Respondido em 21/09/2022 19:29:07
 
 ---

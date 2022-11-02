@@ -34,9 +34,6 @@ III - Aprender diversas linguagens de programação propicia um melhor embasamen
 
 ---
 
-Respondido em 21/09/2022 19:16:55
-
----
 
 ### 2ª Questão
 
@@ -54,9 +51,6 @@ De acordo com o texto assinale a alternativa que apresenta a razão para estudar
 
 ---
 
-Respondido em 21/09/2022 19:17:11
-
----
 
 ### 3ª Questão
 
@@ -85,9 +79,6 @@ III - Ser especialista em Inteligência Artificial
 
 ---
 
-Respondido em 21/09/2022 19:20:00
-
----
 
 ### 4ª Questão
 
@@ -98,10 +89,6 @@ Em um sistema computacional baseado na arquitetura de Von Neumann há sempre um 
 - nome, endereço, tipo, valor
 - arquitetura, tipo, endereço, valor
 - tamanho, arquitetura, endereço, valor
-
----
-
-Respondido em 21/09/2022 19:20:34
 
 ---
 
@@ -137,9 +124,5 @@ o ind no print ter escopo local e não global
 A virgula dentro da string ", indice" é um caracter inválido
 
 Ele ter chamado a função com o nome errado
-
----
-
-Respondido em 21/09/2022 19:22:32
 
 ---
