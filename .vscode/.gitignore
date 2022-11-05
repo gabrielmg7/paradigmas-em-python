@@ -1,5 +1,3 @@
 settings.json
-.vscode
-.txt
-.xlsx
-trabalho_3
+*.vscode
+

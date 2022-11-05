@@ -8,8 +8,7 @@
 ##### 📋 Atividade Complementar 3
 ##### 🎯 Valendo 2.5 Pontos na AV2
 ##### 🔗 Link do Projeto no [Notion](https://gabrielmdev.notion.site/Trabalhos-5baf7d4988a846159411739b739fcc30)
+
 ---
 
-4. Faça um programa possui uma função que receba um número digitado pelo usuário e calcule a soma de todos os números de 1 até ao número digitado.
-    
-    Por exemplo, se o usuário digitou o número 4, a saída deve ser 10 (1+2+3+4=10).
+5. Faça um programa que recebendo um valor inteiro, informe se o número é positivo, negativo ou neutro.
