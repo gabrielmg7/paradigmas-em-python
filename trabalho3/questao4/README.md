@@ -13,3 +13,15 @@
 4. Faça um programa possui uma função que receba um número digitado pelo usuário e calcule a soma de todos os números de 1 até ao número digitado.
     
     Por exemplo, se o usuário digitou o número 4, a saída deve ser 10 (1+2+3+4=10).
+    
+    - Resposta
+        
+        ```python
+        resultado = 0
+        
+        numero = int(input("Insira um número: "))
+        
+        for i in range(1, numero + 1, 1):
+            resultado += i
+        print("Resultado = ", resultado)
+        ```
