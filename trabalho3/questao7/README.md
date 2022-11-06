@@ -11,17 +11,9 @@
 
 ---
 
-5. Faça um programa que recebendo um valor inteiro, informe se o número é positivo, negativo ou neutro.
-
-- Resposta
-    
-    ```python
-    x = int(input("Insira um número inteiro: "))
-    
-    if x > 0:
-        print(x, "Valor positivo.")
-    elif x < 0:
-        print(x, "Valor negativo.")
-    elif x == 0:
-        print(x, "Valor neutro.")
-    ```
+7. Teste a mesma função usando o **kwargs. Para isso, crie um dicionário os 10 argumentos.
+    - Resposta
+        
+        ```python
+        
+        ```

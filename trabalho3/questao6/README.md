@@ -11,17 +11,9 @@
 
 ---
 
-5. Faça um programa que recebendo um valor inteiro, informe se o número é positivo, negativo ou neutro.
-
-- Resposta
-    
-    ```python
-    x = int(input("Insira um número inteiro: "))
-    
-    if x > 0:
-        print(x, "Valor positivo.")
-    elif x < 0:
-        print(x, "Valor negativo.")
-    elif x == 0:
-        print(x, "Valor neutro.")
-    ```
+6. **Faça um programa que possui uma função chamada soma_args_kwargs() que recebe 10 argumentos, realiza a soma e imprime cada um dos valores e a soma total: (Use o *args).**
+    - Resposta
+        
+        ```python
+        
+        ```
