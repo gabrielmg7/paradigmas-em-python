@@ -73,8 +73,8 @@ valores_b = exemplo["x2"] # Atribui-se à uma variável
 # informa-se a chave do elemento e uma mensagem de retorno caso não haja nada.
 valores_c = exemplo.get("c1", "Não encontrado.")
 
-# Adicionando u{m elemento ao dicionário
-exemplo.update({"x3":"c4"}) # função .update() passa-se como parâmetro a chave com o valor a ser associado.
+# Adicionando um elemento ao dicionário
+exemplo.update({"x3":"c4"}) função .update() passa-se como parâmetro a chave com o valor a ser associado.
 exemplo["x1"] = "a3" # associando um valor diretamente à chave 
 
 #Removendo um elemento do dicionário 
