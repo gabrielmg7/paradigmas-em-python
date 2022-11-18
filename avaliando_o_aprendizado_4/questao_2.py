@@ -6,5 +6,6 @@
 # são variáveis cujos valores antes da chamada são, respectivamente,
 #  10 e 20, esperamos que, ao terminar a função, os novos valores de X e Y sejam, respectivamente:
 
-def f(a, b):
+def funcao(a, b):
+    print()
     

@@ -6,9 +6,9 @@
 ##### ALUNO: Gabriel Moura
 ##### Data de Entrega: 02/11/2022
 ##### Avaliando o Aprendizado Ciclo 3
-##### [Notion] (https://gabrielmdev.notion.site/AVALIANDO-O-APRENDIZADO-Ciclo-3-90aff1fda8ea43af9e3e1196d5380681)
+##### Link do Projeto no [Notion](https://gabrielmdev.notion.site/AVALIANDO-O-APRENDIZADO-Ciclo-3-90aff1fda8ea43af9e3e1196d5380681)
 
-<aside>
+
 📜 O **Avaliando o Aprendizado** são exercícios na forma de simulados para todos os alunos dos cursos presenciais que possuem Prova Nacional Integrada (PNI) e Banco de Questões. Ele lhe dá a chance de estudar por meio de quatro simulados realizados ao longo do semestre, além de permitir que você **obtenha até 1,0 ponto extra para utilizar na AV1 e AV2.** Cada ciclo vale até 0,5 pontos de acordo com os acertos. A pontuação final é dividida da seguinte forma:
 **Ciclo 1 + Ciclo 2** = Até 1,0 ponto extra na **AV1
 Ciclo 3 + Ciclo 4** = Até 1,0 ponto extra na **AV2**

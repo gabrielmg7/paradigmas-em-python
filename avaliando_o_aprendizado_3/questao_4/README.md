@@ -6,7 +6,7 @@
 ##### ALUNO: Gabriel Moura
 ##### Data de Entrega: 02/11/2022
 ##### Avaliando o Aprendizado Ciclo 3
-##### [Notion] (https://gabrielmdev.notion.site/AVALIANDO-O-APRENDIZADO-Ciclo-3-90aff1fda8ea43af9e3e1196d5380681)
+##### Link do Projeto no [Notion](https://gabrielmdev.notion.site/AVALIANDO-O-APRENDIZADO-Ciclo-3-90aff1fda8ea43af9e3e1196d5380681)
 ---
 4ª Questão | Ref.: 201908830056 
 

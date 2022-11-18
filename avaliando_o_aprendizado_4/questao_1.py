@@ -1,8 +1,9 @@
+from functools import reduce
+
+
 x = range(10)
 
-
 def somar(x, y):
-
     return x + y
 
 
