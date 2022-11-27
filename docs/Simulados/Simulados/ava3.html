@@ -1,0 +1,311 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>AVALIANDO O APRENDIZADO - Ciclo 3</title>
+	
+</head>
+
+<body>
+	<article id="90aff1fd-a8ea-43af-9e3e-1196d5380681" class="page sans">
+		<header>
+			<div class="page-header-icon undefined"><span class="icon">📝</span></div>
+			<h1 class="page-title">AVALIANDO O APRENDIZADO - Ciclo 3</h1>
+		</header>
+		<div class="page-body">
+			<h3 id="6bb03a49-d7f7-463d-8da4-cf9639e64349" class="">1ª Questão | BdQ Ref.: 201908829808 | (CESGRANRIO /
+				UNIRIO, 2019) </h3>
+			<p id="34797d10-3482-46d0-9241-3cc021a8595b" class="">O código a seguir exibe parte de um programa Python
+				que tem por objetivo retirar um elemento de uma pilha (variável stack) de strings e exibir no console o
+				valor do elemento retirado.</p>
+			<pre id="9778ddf8-be66-4b61-9a17-a47954d36772" class="code"><code>def empty(s):
+
+    if len(s) == 0:
+        return True
+    else:
+        return False
+
+
+def pop(s):
+		#falta a implementação
+		#desta função
+		
+
+stack = [&#x27;calça&#x27;, &#x27;meias&#x27;, &#x27;paletó&#x27;, &#x27;gravata&#x27;, &#x27;camisa&#x27;]
+
+if not empty(stack):
+    print(pop(stack))
+else:
+
+    print(&#x27;Pilha vazia&#x27;)</code></pre>
+			<p id="639d197b-732b-45d6-a106-43d3a8fc5513" class="">A pilha foi concebida de modo que o seu topo é o
+				primeiro elemento de uma lista (variável stack). Qual versão da função pop(s) fará com que o programa
+				acima alcance o seu objetivo?</p>
+			<ul id="a34e7fd6-cd08-4f34-bb17-3d40666a3787" class="bulleted-list">
+				<li style="list-style-type:disc">def pop(s): temp=s[0] s.remove(s[0]) return temp</li>
+			</ul>
+			<ul id="fe8f839b-3af3-40c4-85c2-4c9153e0689f" class="block-color-blue_background bulleted-list">
+				<li style="list-style-type:disc">def pop(s): return s.pop(-1) </li>
+			</ul>
+			<ul id="945248e3-2095-41d5-bc80-4b6b9a9632e1" class="bulleted-list">
+				<li style="list-style-type:disc">def pop(s): return s.pop()</li>
+			</ul>
+			<ul id="f79a33be-1b6e-4b83-a564-b755e314d033" class="bulleted-list">
+				<li style="list-style-type:disc">def pop(s): temp=s[-1] s=s[-1:1:-1] return temp</li>
+			</ul>
+			<ul id="bb705014-7670-478b-ad7f-110892c21394" class="bulleted-list">
+				<li style="list-style-type:disc">def pop(s): temp=s[0] s=s[1:] return temp</li>
+			</ul>
+			<hr id="bb28ad12-6d61-41ce-b9f9-264e6da6964b" />
+			<p id="f2330e4c-713e-4ae8-8dac-768d40ccaca6" class="">Respondido em 02/11/2022 17:13:52</p>
+			<ul id="44316abc-032a-41c8-9939-526923c4e403" class="toggle">
+				<li>
+					<details open="">
+						<summary>Gabarito</summary>
+						<figure id="b244d8e3-415e-4f48-8e19-e50177f0982f" class="image"><a
+								href="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled.png"><img
+									style="width:768px"
+									src="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled.png" /></a>
+						</figure>
+					</details>
+				</li>
+			</ul>
+			<hr id="689fc46d-79c4-464b-be32-3b3f2f400af5" />
+			<h3 id="ad4aebbc-6cf9-449b-9cb3-7e991bbc5fd4" class="">2ª Questão | BdQ Ref.: 201907642217</h3>
+			<p id="e3e00d38-d3c7-4ae0-a919-e1ac74cc9dc3" class="">A modularização de programas, também conhecida como a
+				técnica <strong>dividir para conquistar</strong> é muito utilizada no paradigma de programação
+				estruturada. Nesse sentido, os subprogramas possuem código independente e devem ser definidos
+				separadamente no programa. Além disso, precisamos verificar os escopos das variáveis utilizadas as quais
+				podem ser globais ou locais. Levando em consideração seu conhecimento sobre subprogramas na linguagem
+				Python e o escopo das variáveis utilizadas. </p>
+			<p id="6f326438-37ed-474d-ab71-ec09a8312078" class="">Analise as assertivas em relação ao código abaixo:</p>
+			<div id="1c58a454-ffd5-467f-afbb-778cb6749987" class="column-list">
+				<div id="8c1b0cc5-b83a-4b0e-9418-92c835817c8a" style="width:50%" class="column">
+					<pre id="bd320d4b-81f5-45c4-bc82-8336d9eb5346" class="code"><code>def troca(a, b):
+    aux = a
+    a = b
+    b = aux
+
+a = 10
+b = 20
+
+troca(a, b)
+print(a)
+print(b)</code></pre>
+				</div>
+				<div id="fa9b2d0d-aef4-4e39-a387-b55b737c36e2" style="width:50%" class="column">
+					<p id="18535b9c-dde8-44a9-ac3b-d757b7e31601" class="">I - As variáveis a e b são globais, dessa
+						forma, ao executar o subprograma ¿troca¿, elas não teriam seus valores afetados.</p>
+					<p id="93d291b6-1a84-421f-9ffa-c5b806a66768" class="">II - O programa não iria funcionar pois,
+						obrigatoriamente, os subprogramas devem ser definidos ao final do programa principal quando se
+						utiliza a linguagem Python.</p>
+					<p id="d1567d69-b175-4a41-a0a9-ee1875544740" class="">III - As variáveis a e b utilizadas no
+						subprograma são locais, assim, ao executar o subprograma ¿troca¿, elas não afetariam os valores
+						das variáveis a e b definidas globalmente.</p>
+				</div>
+			</div>
+			<p id="10590af5-834e-47d9-99af-abdc6a699faa" class="">Qual(s) afirmativa(s) é (são) verdadeira(s)?</p>
+			<ul id="ea31dea2-095b-4b03-b739-ae8f3c2de559" class="bulleted-list">
+				<li style="list-style-type:disc">Apenas I e II.</li>
+			</ul>
+			<ul id="c966d8b6-df82-4d4f-9a49-35dd2fa4a36b" class="bulleted-list">
+				<li style="list-style-type:disc">I, II e III.</li>
+			</ul>
+			<ul id="9f4fd4b1-682c-4b36-8ced-83f9fad5c57d" class="block-color-blue_background bulleted-list">
+				<li style="list-style-type:disc">Apenas II e III.</li>
+			</ul>
+			<ul id="357e8ba5-7a8f-4633-b290-ee54229bdc3b" class="bulleted-list">
+				<li style="list-style-type:disc">Nenhuma das alternativas.</li>
+			</ul>
+			<ul id="66c80c7f-171d-45fe-a359-4664121cf18d" class="bulleted-list">
+				<li style="list-style-type:disc">Apenas I e III.</li>
+			</ul>
+			<hr id="48cd61e6-49ff-42ee-a036-50deca55652e" />
+			<p id="7bd82c25-de59-4abe-bd64-ccbff25a890b" class="">Respondido em 02/11/2022 17:43:17</p>
+			<ul id="94150b4c-8e63-4c50-84aa-2a9e1456822d" class="toggle">
+				<li>
+					<details open="">
+						<summary>Gabarito</summary>
+						<figure id="4c277247-94a1-4ecd-b47f-7f8d0f9f356b" class="image"><a
+								href="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled%201.png"><img
+									style="width:816px"
+									src="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled%201.png" /></a>
+						</figure>
+					</details>
+				</li>
+			</ul>
+			<hr id="d7edf6e2-c9c6-4f31-9eaa-3d0ad4b57030" />
+			<h3 id="1e8e5fcb-1adf-4fd0-8b13-90b6dfe21bb9" class="">3ª Questão | BdQ Ref.: 201908829807 | (AOCP / MJSP,
+				2020) </h3>
+			<p id="eb301dbb-10b9-4dad-96c9-b857a088fdbd" class="">Assinale a alternativa que apresenta o código Python
+				que implementa corretamente uma função para o cálculo da área de um retângulo, bem como o código que
+				imprime o seu resultado.</p>
+			<p id="91cb2617-c2fd-44ec-990e-20d1d3fd361a" class="block-color-blue_background">a)
+			<div class="indented">
+				<pre id="0b4642f0-9056-4b77-9bf2-61860f800cb8" class="code"><code>def area_retangulo(comp, larg):
+	return comp * larg
+	print(&#x27; A área é {}&#x27; .format
+	(area_retangulo (2,4)))</code></pre>
+			</div>
+			</p>
+			<p id="37c85d29-ac34-49cb-9fe3-c9eb79653515" class="">
+			</p>
+			<p id="4a583205-aa74-4bae-a25d-44aa49b53444" class="">
+			</p>
+			<p id="1406739b-f537-4bf2-8b18-14902fa51e72" class="">b)
+			<div class="indented">
+				<pre id="2ac7b09d-bab5-49c3-8c24-8c078dc5aff9" class="code"><code>def area_retangulo(comp, larg){
+	return comp * larg}
+	print(&#x27; A área é &#x27; +
+	area_retangulo (2,4))</code></pre>
+			</div>
+			</p>
+			<p id="ad485fd7-be1a-4494-9427-da8ee9667827" class="">c)
+			<div class="indented">
+				<pre id="23e6f997-8f2d-4026-a044-15ba94d537b4" class="code"><code>func area_retangulo(comp, larg): return comp * larg print(&#x27; A área é &#x27; ||
+area_retangulo (2,4))</code></pre>
+			</div>
+			</p>
+			<p id="15ee8031-154f-4322-994f-13cbd383cc57" class="">d)
+			<div class="indented">
+				<pre id="61be72fb-c844-4ff6-b602-23f72c621a46" class="code"><code>def area_retangulo(comp, larg)(
+return comp * larg);
+print(&#x27; A área é {}&#x27; .format (area_retangulo (2,4)))</code></pre>
+			</div>
+			</p>
+			<p id="22954318-7a83-4d1d-bc0a-37438110262a" class="">e)
+			<div class="indented">
+				<pre id="e9110727-328a-4add-a31e-ec3bc5c49545" class="code"><code>func area_retangulo(comp, larg): return comp * larg; println(&#x27; A área é &#x27; +
+	area_retangulo (2,4))</code></pre>
+			</div>
+			</p>
+			<hr id="a8d71f6d-3852-4569-a03e-0f08cc5efe30" />
+			<p id="bd66d895-6f80-45cb-9502-336b3df07e96" class="">Respondido em 02/11/2022 17:45:28</p>
+			<ul id="83b071f0-829d-464d-97e4-16de02c4b524" class="toggle">
+				<li>
+					<details open="">
+						<summary>Gabarito</summary>
+						<figure id="fbc320ad-1e37-45cd-b867-0741f41d4303" class="image"><a
+								href="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled%202.png"><img
+									style="width:816px"
+									src="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled%202.png" /></a>
+						</figure>
+					</details>
+				</li>
+			</ul>
+			<hr id="1775afec-345a-4bab-a740-15474e5a8a5c" />
+			<h3 id="0790839d-1fb9-4fe8-bbd7-2b2cee3a4f5b" class="">4ª Questão | Ref.: 201908830056 </h3>
+			<p id="7a66c3eb-1974-41c7-a966-3ba7c0a8deab" class="">Analise o seguinte trecho de código:</p>
+			<pre id="b19fdfcd-b9f8-4d77-9ab1-5cdfbb0ceb56" class="code"><code>n1 = int(input(&#x27;Primeiro numero: &#x27;))
+n2  = int(input(&#x27;Segundo numero: &#x27;))
+n3 = int(input(&#x27;Terceiro numero: &#x27;))
+print(n1,&#x27;-&#x27;,n2,&#x27;-&#x27;,n3)
+if(n3 &gt; n2):
+    aux = n3
+    n3 = n2
+    n2 = aux
+if(n2 &gt; n1):
+    aux = n2
+    n2 = n1
+    n1 = aux
+if(n3 &gt; n2):
+    aux = n3
+    n3 = n2
+    n2 = aux    
+print(n1,&#x27;-&#x27;,n2,&#x27;-&#x27;,n2)</code></pre>
+			<ul id="e9e5204c-cfe7-4d29-8ad8-1cfe5f2473c5" class="bulleted-list">
+				<li style="list-style-type:disc">O programa apresentará erro caso o usuário entre com números iguais
+				</li>
+			</ul>
+			<ul id="aa5b0d2a-90f5-41bd-9400-25bda434b4e7" class="bulleted-list">
+				<li style="list-style-type:disc">O programa apresentará um erro no comando input</li>
+			</ul>
+			<ul id="6df9254a-c9e3-408b-b6d7-6abc25e352f4" class="block-color-blue_background bulleted-list">
+				<li style="list-style-type:disc">O programa irá ordenar os números em ordem crescente</li>
+			</ul>
+			<ul id="9491c64f-cf7e-4841-8780-f4efb6466e4b" class="bulleted-list">
+				<li style="list-style-type:disc">O programa apresentará um erro pois está utilizando a variável aux de
+					forma global</li>
+			</ul>
+			<ul id="9349559c-f035-4294-9384-b8ca172678a9" class="bulleted-list">
+				<li style="list-style-type:disc">O programa irá ordenar os números em ordem decrescente</li>
+			</ul>
+			<hr id="6c2376c7-5bc2-4573-a0ae-0e1e8f71fddc" />
+			<p id="680ec098-7274-4aab-b399-f96da82b5f17" class="">Respondido em 02/11/2022 17:54:47</p>
+			<ul id="5644d0c9-aa7f-4926-ae4e-3adc693d6d3d" class="toggle">
+				<li>
+					<details open="">
+						<summary>Gabarito</summary>
+						<figure id="fd91e969-e995-48ac-8e89-9be136860881" class="image"><a
+								href="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled%203.png"><img
+									style="width:864px"
+									src="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled%203.png" /></a>
+						</figure>
+					</details>
+				</li>
+			</ul>
+			<hr id="42cef500-cb06-49ef-8ed2-d8a61abbb93a" />
+			<h3 id="4c73c94a-a985-4710-b6e9-0dd030543b26" class="">5ª Questão | Ref.: 201907579269</h3>
+			<p id="1717a84a-97af-4c13-b74a-38326c268c24" class="">Expressões condicionais são muito utilizadas em
+				linguagens de programação quando um programa necessita tomar decisões sobre qual comando será executado.
+				Python, assim como quase todas as linguagens de programação, propicia que o programador utilize as
+				estruturas condicionais de forma que um programa possa realizar essa decisão. Nesse contexto, suponha
+				que um programador desenvolveu um programa em Python que verifique se um aluno tirou nota abaixo de 7.0
+				e maior que 4.0 e nesse caso, ele então poderá realizar uma segunda prova para tentar obter a sua
+				aprovação:</p>
+			<pre id="c4cccac2-e601-431a-a559-feea23e7cf22" class="code"><code>a = input(&quot;Digite sua nota: &quot;)
+nota = float(a)
+
+if nota &gt;= 7.0:
+    print(&quot;Você está aprovado por média.&quot;)
+    if nota &gt; 9.0:  # IF ANINHADO
+        print(&quot;Parabéns!&quot;)  # se nota &gt; 9
+    print(&quot;Boas Férias!&quot;)  #  se nota &gt;=7
+else:
+    if nota &gt;= 4:  # IF ANINHADO
+        print(&quot;Você pode fazer G2.&quot;)
+        print(&quot;Venha na próxima semana.&quot;)
+    else:
+        print(&quot;Você está reprovado!&quot;)
+        print(&quot;Você não pode fazer G2.&quot;)
+print(&quot;Acabou.&quot;)</code></pre>
+			<p id="ae0fbeef-ed0b-4e8f-be99-71a12177f0b4" class="">
+			</p>
+			<p id="d92825fc-e430-4e21-892b-17da6894b2b6" class="">Caso o usuário entre com a nota 6.5, quais as saídas
+				que o programa acima irá exibir?</p>
+			<ul id="dd12c13f-00bb-417e-a4d3-51bbb7d275c5" class="bulleted-list">
+				<li style="list-style-type:disc">Você está reprovado. Acabou.</li>
+			</ul>
+			<ul id="ea8c58a1-5cd7-4023-83ee-aa1afaea5aaf" class="bulleted-list">
+				<li style="list-style-type:disc">Parabéns! Boas Férias. Acabou.</li>
+			</ul>
+			<ul id="a33b67e8-8db9-4aa8-a988-eeefb49c8623" class="bulleted-list">
+				<li style="list-style-type:disc">Você pode fazer G2. Boas Férias! Acabou.</li>
+			</ul>
+			<ul id="2f5fee50-1b44-43b8-86a0-d95d0c091ef8" class="block-color-blue_background bulleted-list">
+				<li style="list-style-type:disc">Você pode fazer G2. Venha na próxima semana. Acabou.</li>
+			</ul>
+			<ul id="4417e8f7-1a74-447e-b4a2-6cb688a1a137" class="bulleted-list">
+				<li style="list-style-type:disc">O programa não irá funcionar pois o comando input recebe apenas valores
+					literais.</li>
+			</ul>
+			<hr id="bb9b1584-efe0-485f-b50f-08420d8b2039" />
+			<ul id="1f34e750-6036-4ce3-a473-4e4ec2f25b0e" class="toggle">
+				<li>
+					<details open="">
+						<summary>Gabarito</summary>
+						<figure id="f2125398-4041-4324-8080-f1ba3ce5e9f5" class="image"><a
+								href="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled%204.png"><img
+									style="width:864px"
+									src="AVALIANDO%20O%20APRENDIZADO%20-%20Ciclo%203%2090aff1fda8ea43af9e3e1196d5380681/Untitled%204.png" /></a>
+						</figure>
+					</details>
+				</li>
+			</ul>
+			<p id="c73cda9c-5f4d-4fdb-b349-fe285b400c94" class="">
+			</p>
+		</div>
+	</article>
+</body>
+
+</html>
